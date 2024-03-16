@@ -83,6 +83,10 @@ class Transaction:
             return True
         else:
             return False
+    def getTransactionMessage(self):
+        return "fromIp:{},toIp:{},value:{}".format(self.from_ip,self.to_ip,self.value)
+
+
 
 
 if __name__ == '__main__':
@@ -98,4 +102,3 @@ if __name__ == '__main__':
     transaction.signature = transaction.sign_signature(private_key)
     print(transaction.signature)
     print(transaction.check_signature(public_key))
-
