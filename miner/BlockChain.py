@@ -119,6 +119,14 @@ class BlockChain:
             prev_block_hash = recomputed_current_hash
         return True
 
+    def getMaxHeightBlock(self):
+        """
+        get the max height Block of block chain
+        :return:
+        """
+        return self.maxheightnode
+
+
 if __name__=="__main__":
     bc=BlockChain()
     block=bc.genesis
@@ -128,6 +136,8 @@ if __name__=="__main__":
     bc.add_block(block2,block2.hash)
     bc.getChainMessage()
     print("目前区块链是否合法：", bc.is_valid_chain())
+    lastBlock=bc.getMaxHeightBlock()
+    print("lastBlock:",lastBlock.getBlockMessage())
     #恶意篡改其中的hash
     # print("篡改前一个区块的hash")
     # block2.previousHash="7508db73d954caaa2173f0bb0412263350c4faebece1845affbfe8f24fb34kjd"
