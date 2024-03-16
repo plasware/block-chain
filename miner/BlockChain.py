@@ -29,19 +29,6 @@ class BlockChain:
         block=Block(genesis_block=True)
         return block
 
-    def addTransactionPool(self, transaction):
-        """
-        add transaction to the pool
-        :param transaction: the transaction need to add
-        :return: None
-        """
-        # 添加前先验证交易是否被篡改
-        if transaction.from_ip == 'SYSTEM' or transaction.check_signature():
-            print('valid transaction')
-            self.transactionPool.append(transaction)
-        else:
-            raise Warning("invalid transaction")
-
     def add_block(self, block=None, proof=None):
         """
         add a block to block chain
