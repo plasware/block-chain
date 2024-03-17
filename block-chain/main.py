@@ -11,7 +11,7 @@ import os
 import sys
 import datetime
 from Constant import *
-from Database import TransactionDB, BlockChainDB, Addr2PublicKeyDB
+from Database import TransactionDB, BlockChainDB, Addr2PublicKeyDB, AccountBookDB
 from Block import Block
 from Transaction import Transaction
 from BlockChain import BlockChain
@@ -21,6 +21,8 @@ from utils import common
 
 blockchainDB = BlockChainDB()
 blockchain = blockchainDB.read()
+
+accountBookDB = AccountBookDB()
 
 ADDRESS = ('255.255.255.255', 10000)
 
@@ -120,10 +122,11 @@ def receive_block_thread():
                           parent=blockchain.getMaxHeightBlock())
         print(new_block.getBlockMessage())
         print('receive block message:', message)
-        if common.checkTransactions(new_block.transactions):
-            common.updateAccountBook(transactions)
         if blockchain.add_block(new_block):
+            common.updateAccountBook(new_block.transactions)
             TransactionDB().write([])
+            accountInfo = accountBookDB.read()
+            accountInfo[addr[0]] += REWARD
             print("Block received")
             blockchainDB.write(blockchain)
 
