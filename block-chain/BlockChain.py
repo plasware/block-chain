@@ -1,10 +1,9 @@
 from Transaction import Transaction
 
 from Block import Block
-from Constant import DIFFICULTY,MAX_BRANCH_LEN_DIFF
+from Constant import DIFFICULTY, MAX_BRANCH_LEN_DIFF
 from utils.common import checkTransactions
 import copy
-
 
 
 class BlockChain:
@@ -13,11 +12,11 @@ class BlockChain:
         init a block chain
         """
         self.blockchain = dict({})
-        genesis_block=self.genesisBlock()
-        self.maxheightnode=genesis_block
-        self.genesis =genesis_block
-        self.blockchain[genesis_block.hash]=genesis_block
-        self.transactions=[]
+        genesis_block = self.genesisBlock()
+        self.maxheightnode = genesis_block
+        self.genesis = genesis_block
+        self.blockchain[genesis_block.hash] = genesis_block
+        self.transactions = []
 
     # 祖先区块
     def genesisBlock(self):
@@ -25,7 +24,7 @@ class BlockChain:
         create a genesis block
         :return: a genesis block
         """
-        block=Block(genesis_block=True)
+        block = Block(genesis_block=True)
         return block
 
     def add_block(self, block=None, proof=None):
@@ -48,11 +47,11 @@ class BlockChain:
         if not self.is_valid_proof(block, block.generate_hash()):
             print("the proof of work is invalid, False is returned")
             return False
-        #Verify that the transaction is valid
+        # Verify that the transaction is valid
         print(block.transactions)
         if not checkTransactions(block.transactions):
             print("the transaction is not valid")
-        nonceSet=set()
+        nonceSet = set()
         # verify nouce is random
         for item in self.blockchain.values():
             if item.nonce not in nonceSet:
@@ -63,12 +62,12 @@ class BlockChain:
         if block.nonce in nonceSet:
             print("The newly added block nonce repeats the blockchain nonce")
             return False
-        
-        tmpChain=copy.deepcopy(self)
-        tmpChain.blockchain[block.hash]=block
+
+        tmpChain = copy.deepcopy(self)
+        tmpChain.blockchain[block.hash] = block
         if not tmpChain.is_valid_chain():
             return False
-        
+
         parent_node = self.blockchain[prev_hash]
         height = parent_node.height + 1
         if (height <= self.maxheightnode.height - MAX_BRANCH_LEN_DIFF):
@@ -77,7 +76,7 @@ class BlockChain:
         if height > self.maxheightnode.height:
             self.maxheightnode = block
         self.blockchain[block.hash] = block
-        print("new block with hash = {block.get_hash()} gets added in the block-chain")
+        print("new block with hash = {block.hash()} gets added in the block-chain")
         return True
 
     def is_valid_proof(self, block, block_hash):
@@ -88,7 +87,6 @@ class BlockChain:
         :return:True or False
         """
         return (block_hash[:].startswith('0' * DIFFICULTY) and block.hash == block_hash)
-
 
     def getChainMessage(self):
         """
@@ -106,7 +104,7 @@ class BlockChain:
         """
         prev_block_hash = self.genesis.hash
         for current_block_hash in self.blockchain:
-            if self.blockchain[current_block_hash].height==0:
+            if self.blockchain[current_block_hash].height == 0:
                 continue
             current_block = self.blockchain[current_block_hash]
             # print("****:",current_block.getBlockMessage())
@@ -129,19 +127,18 @@ class BlockChain:
         return self.maxheightnode
 
 
-
-if __name__=="__main__":
-    bc=BlockChain()
-    block=bc.genesis
+if __name__ == "__main__":
+    bc = BlockChain()
+    block = bc.genesis
     transaction1 = Transaction(from_ip='192.168.42.10', to_ip='192.168.42.11', value=1.23)
     transaction2 = Transaction(from_ip='192.168.42.11', to_ip='192.168.42.12', value=1.25)
-    block2=Block([transaction1,transaction2],block,block.hash)
-    bc.add_block(block2,block2.hash)
+    block2 = Block([transaction1, transaction2], block, block.hash)
+    bc.add_block(block2, block2.hash)
     bc.getChainMessage()
     # print("�?前区块链�?否合法：", bc.is_valid_chain())
     # lastBlock=bc.getMaxHeightBlock()
     # print("lastBlock:",lastBlock.getBlockMessage())
-    #恶意篡改其中的hash
+    # 恶意篡改其中的hash
     # print("篡改前一�?区块的hash")
     # block2.previousHash="7508db73d954caaa2173f0bb0412263350c4faebece1845affbfe8f24fb34kjd"
     # print("�?前区块链�?否合法：",bc.is_valid_chain())
@@ -151,7 +148,7 @@ if __name__=="__main__":
 
     print('\n\n\n')
     from Database import BlockChainDB
-    db=BlockChainDB()
-    bc=db.read()
-    print(bc.getChainMessage())
 
+    db = BlockChainDB()
+    bc = db.read()
+    print(bc.getChainMessage())

@@ -1,29 +1,29 @@
-from Database import AccountBookDB,Addr2PublicKeyDB
+from Database import AccountBookDB, Addr2PublicKeyDB
 
 
 def checkTransactions(transactions):
-        """
+    """
         check transactions signature and value
         Input:
             transactions: the transactions of block
         Output:
             bool represents check sucess or failure
         """
-        # check value
-        accountDB=AccountBookDB()
-        accountInfo=accountDB.read()
-        for transaction in transactions:
-            publicDB=Addr2PublicKeyDB()
-            publicKeyInfo=publicDB.read()
-            public_key=publicKeyInfo[transaction.from_ip]
-            if not transaction.check_signature(public_key):
-                print("signature failure")
-                return False
-            if accountInfo[transaction.from_ip]<transaction.value:
-                print("value failure")
-                return False
-            accountInfo[transaction.from_ip]-=transaction.value
-        return True
+    # check value
+    accountDB = AccountBookDB()
+    accountInfo = accountDB.read()
+    for transaction in transactions:
+        publicDB = Addr2PublicKeyDB()
+        publicKeyInfo = publicDB.read()
+        public_key = publicKeyInfo[transaction.from_ip]
+        if not transaction.check_signature(public_key):
+            print("signature failure")
+            return False
+        if accountInfo[transaction.from_ip] < transaction.value:
+            print("value failure")
+            return False
+        accountInfo[transaction.from_ip] -= transaction.value
+    return True
 
 
 def updateAccountBook(transactions):
@@ -33,12 +33,11 @@ def updateAccountBook(transactions):
         transactions: the transactions of block
     Ouput:
     """
+    accountDB = AccountBookDB()
+    accountInfo = accountDB.read()
     for transaction in transactions:
-        accountDB=AccountBookDB()
-        accountInfo=accountDB.read()
-        accountInfo[transaction.from_ip]-=transaction.value
-        accountInfo[transaction.to_ip]+=transaction.value
-        
+        accountInfo[transaction.from_ip] -= transaction.value
+        accountInfo[transaction.to_ip] += transaction.value
+
     accountDB.write(accountInfo)
     print("update accountbook success")
-     

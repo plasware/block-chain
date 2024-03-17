@@ -7,7 +7,7 @@ from Crypto.PublicKey import RSA
 from Transaction import Transaction
 from Constant import DATA_PATH
 
-
+LOCAL_IP = "192.168.42.1"
 
 with open(DATA_PATH + "/private_key.txt", 'r') as f:
     PRIVATE_KEY = f.read()

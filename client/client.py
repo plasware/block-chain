@@ -3,10 +3,11 @@ import json
 import random
 from socket import *
 from time import sleep
-from Crypto.PublicKey import RSA
 from Transaction import Transaction
 
 PATH = os.path.dirname(__file__)
+
+LOCAL_IP = "192.168.42.1"
 
 with open(PATH + "/private_key.txt", 'r') as f:
     PRIVATE_KEY = f.read()
@@ -19,7 +20,7 @@ SERVER_SOCKET.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
 if __name__ == '__main__':
     while True:
         random_from_to = random.sample(range(10, 20), 2)
-        from_ip = "192.168.42." + str(random_from_to[0])
+        from_ip = LOCAL_IP
         to_ip = "192.168.42." + str(random_from_to[1])
         value = round(random.uniform(1, 50), 2)
 
