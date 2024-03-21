@@ -10,7 +10,7 @@ from Transaction import Transaction
 from Block import Block
 from BlockChain import BlockChain
 from Constant import DIFFICULTY
-
+from write_log import write_log
 
 class Miner:
     def __init__(self, block, prev_hash, difficulty=DIFFICULTY):
@@ -37,9 +37,11 @@ class Miner:
             self.mining = True
             hash_result, nonce = self.pow()
             print(f"Found valid hash: {hash_result}, with nonce: {nonce}")
+            write_log(f"Found valid hash: {hash_result}, with nonce: {nonce}")
             return hash_result, nonce
         else:
             print("Mining is already in progress.")
+            write_log("Mining is already in progress.")
 
     def pow(self):
         """

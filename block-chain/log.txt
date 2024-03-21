@@ -1,0 +1,86 @@
+[LOG]1711003822.1166434: Transaction Broadcast
+[LOG]1711003827.1877112: Transaction Broadcast
+[LOG]1711003832.2431233: Transaction Broadcast
+[LOG]1711003837.3057208: Transaction Broadcast
+[LOG]1711003842.3649654: Transaction Broadcast
+[LOG]1711003847.4081118: Transaction Broadcast
+[LOG]1711003852.444302: Transaction Broadcast
+[LOG]1711003857.4813883: Transaction Broadcast
+[LOG]1711003859.4739134: Transaction received
+[LOG]1711003859.5489633: Found valid hash: 00007952604fba0770c62e9d60ec1b8530f5d69eabba9fe409eefbd1f5a514b8, with nonce: 14261
+[LOG]1711003859.549406: broadcasted new block
+[LOG]1711003862.5173402: Transaction Broadcast
+[LOG]1711003864.4934225: Transaction received
+[LOG]1711003867.5898492: Transaction Broadcast
+[LOG]1711003869.5024607: Transaction received
+[LOG]1711003872.6302972: Transaction Broadcast
+[LOG]1711003874.5204835: Transaction received
+[LOG]1711003877.6821074: Transaction Broadcast
+[LOG]1711003879.5409725: Invalid transaction value
+[LOG]1711003882.7532086: Transaction Broadcast
+[LOG]1711003884.5537627: Invalid transaction value
+[LOG]1711003887.8205693: Transaction Broadcast
+[LOG]1711003889.5661645: Invalid transaction value
+[LOG]1711003892.8524718: Transaction Broadcast
+[LOG]1711004093.7333496: Transaction Broadcast
+[LOG]1711004098.7700374: Transaction Broadcast
+[LOG]1711004098.8730783: Transaction received
+[LOG]1711004099.1928515: Found valid hash: 0000f6a685db2c17e046ee78bebcc6218c07a23f1d332b78e95ab4d55d4878c3, with nonce: 51378
+[LOG]1711004099.1932924: broadcasted new block
+[LOG]1711004103.8519676: Transaction Broadcast
+[LOG]1711004103.8945036: Transaction received
+[LOG]1711004108.8904746: Transaction Broadcast
+[LOG]1711004108.905287: Transaction received
+[LOG]1711004113.928351: Transaction received
+[LOG]1711004113.933103: Transaction Broadcast
+[LOG]1711004118.9413712: Invalid transaction value
+[LOG]1711004118.9706068: Transaction Broadcast
+[LOG]1711004123.9682832: Invalid transaction value
+[LOG]1711004124.0067854: Transaction Broadcast
+[LOG]1711004129.044598: Transaction Broadcast
+[LOG]1711004932.0981143: Transaction Broadcast
+[LOG]1711004937.1791172: Transaction Broadcast
+[LOG]1711004937.27574: Transaction received
+[LOG]1711004938.0021386: Found valid hash: 0000a0b12e7694553ca30a0f62effbad5cd5593d25b9d30d412508eb2b174aa4, with nonce: 121999
+[LOG]1711004938.0026147: broadcasted new block
+[LOG]1711004938.002689: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:35.41,sig:ADnSbz+XdmU6g4rx/5zw5HU2KgxIVobgYLpiczMumD7XyHxp8tQI5x61Emj19Ob08wCo+jnPCjQDeQ4db9+BeA8nQRaybEHppc3r2OrwtmQWg0gJ8TBwNyeBL6z6jR0o7M5ZOClNWOnhvvSovMFgnVlxP2gOFoXD+pkCqJx/NQnb'], 'previousHash': '0000824bdb1d3195a3e07f87fb2afaa2975325f0a5fbeb6e5da24057501452e5', 'timestamp': 1711004937.2550771, 'nonce': 121999, 'hash': '0000a0b12e7694553ca30a0f62effbad5cd5593d25b9d30d412508eb2b174aa4', 'height': 65, 'parent': <Block.Block object at 0x7f108d87c240>, 'children': []}
+[LOG]1711004942.216091: Transaction Broadcast
+[LOG]1711004942.2906394: Transaction received
+[LOG]1711004947.2998784: Invalid transaction value
+[LOG]1711004947.3206506: Transaction Broadcast
+[LOG]1711004952.3067145: Transaction received
+[LOG]1711004952.3564134: Transaction Broadcast
+[LOG]1711004957.3176558: Invalid transaction value
+[LOG]1711004957.39358: Transaction Broadcast
+[LOG]1711004962.3399508: Transaction received
+[LOG]1711004962.513122: Transaction Broadcast
+[LOG]1711004967.3530943: Invalid transaction value
+[LOG]1711004967.5493908: Transaction Broadcast
+[LOG]1711004972.3658168: Invalid transaction value
+[LOG]1711004972.5877864: Transaction Broadcast
+[LOG]1711004977.383447: Transaction received
+[LOG]1711004977.6745057: Transaction Broadcast
+[LOG]1711004982.3974245: Transaction received
+[LOG]1711004982.7651794: Transaction Broadcast
+[LOG]1711004987.4122646: Invalid transaction value
+[LOG]1711004987.8015575: Transaction Broadcast
+[LOG]1711004992.4408674: Invalid transaction value
+[LOG]1711004992.8373754: Transaction Broadcast
+[LOG]1711004997.8737137: Transaction Broadcast
+[LOG]1711005123.0723886: Transaction Broadcast
+[LOG]1711005128.1143537: Transaction Broadcast
+[LOG]1711005128.2201285: Transaction received
+[LOG]1711005128.414928: Found valid hash: 000051e6a5690ecf660573c5a21a2572859234ca9d71eb1ddd1ef084d647b60f, with nonce: 29096
+[LOG]1711005128.4153602: broadcasted new block
+[LOG]1711005128.415472: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:36.59,sig:ATopG2WJaTum6/Yqbig/8un3rtulwACC0a4eSfYNpy032sSOyLB3SZ0HfPqMeQ2B9IaQJVNU2rwU9WnKmn7yBILsdwJFgXoQ98mA9ooPzIl5U8y1mxidoFMNOy7rXf82Ufxgcvzo9qYnakjS/FPKIKlS9VnOE1neNxj7qrsDZQZ9'], 'previousHash': '0000824bdb1d3195a3e07f87fb2afaa2975325f0a5fbeb6e5da24057501452e5', 'timestamp': 1711005128.1892836, 'nonce': 29096, 'hash': '000051e6a5690ecf660573c5a21a2572859234ca9d71eb1ddd1ef084d647b60f', 'height': 65, 'parent': <Block.Block object at 0x7f94e5106240>, 'children': []}
+[LOG]1711005133.175597: Transaction Broadcast
+[LOG]1711005133.2416852: Transaction received
+[LOG]1711005138.2516668: Transaction received
+[LOG]1711005138.2664542: Transaction Broadcast
+[LOG]1711005143.2650201: Invalid transaction value
+[LOG]1711005143.3078864: Transaction Broadcast
+[LOG]1711005148.2739334: Invalid transaction value
+[LOG]1711005148.3840067: Transaction Broadcast
+[LOG]1711005153.2860456: Invalid transaction value
+[LOG]1711005153.4205585: Transaction Broadcast
+[LOG]1711005158.4611795: Transaction Broadcast

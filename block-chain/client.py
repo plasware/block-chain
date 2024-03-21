@@ -6,6 +6,7 @@ from time import sleep
 from Crypto.PublicKey import RSA
 from Transaction import Transaction
 from Constant import DATA_PATH
+from write_log import write_log
 
 LOCAL_IP = "192.168.42.1"
 
@@ -34,5 +35,6 @@ if __name__ == '__main__':
         message_json = json.dumps(message)
         SERVER_SOCKET.sendto(message_json.encode('utf-8'), ADDRESS)
         print("Transaction Broadcast")
+        write_log("Transaction Broadcast")
 
         sleep(5)

@@ -3,7 +3,7 @@ import base64
 from Crypto.Hash import SHA256
 from Crypto.PublicKey import RSA
 from Crypto.Signature import pkcs1_15
-
+from write_log import write_log
 
 
 class Transaction:
@@ -114,6 +114,7 @@ if __name__ == '__main__':
     # Test
     transaction = Transaction(from_ip='192.168.42.10', to_ip='192.168.42.11', value=1.23)
     print('transaction:\n', str(transaction))
+
     
     print(transaction.check_value(1.11))
     print(transaction.check_value(2.34))

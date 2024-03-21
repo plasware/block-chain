@@ -4,7 +4,7 @@ from Block import Block
 from Constant import DIFFICULTY, MAX_BRANCH_LEN_DIFF
 from utils.common import checkTransactions
 import copy
-
+from write_log import write_log
 
 class BlockChain:
     def __init__(self):
@@ -38,19 +38,24 @@ class BlockChain:
         # If the hash value of the previous block is empty, False is returned
         if prev_hash == None:
             print("Block not valid because previous block hash is None")
+            write_log("Block not valid because previous block hash is None")
             return False
         # If the hash of the previous block is not in the blockchain, False is returned
         if prev_hash not in self.blockchain:
             print("Block not valid because previous block hash is not in the blockchain")
+            write_log("Block not valid because previous block hash is not in the blockchain")
             return False
         # If the proof of work is invalid, False is returned
         if not self.is_valid_proof(block, block.generate_hash()):
             print("the proof of work is invalid, False is returned")
+            write_log("the proof of work is invalid, False is returned")
             return False
         # Verify that the transaction is valid
         print(block.transactions)
+        write_log(block.transactions)
         if not checkTransactions(block.transactions):
             print("the transaction is not valid")
+            write_log("the transaction is not valid")
         nonceSet = set()
         # verify nouce is random
         for item in self.blockchain.values():
@@ -58,9 +63,11 @@ class BlockChain:
                 nonceSet.add(item.nonce)
             else:
                 print("nonce is not unique")
+                write_log("nonce is not unique")
                 return False
         if block.nonce in nonceSet:
             print("The newly added block nonce repeats the blockchain nonce")
+            write_log("The newly added block nonce repeats the blockchain nonce")
             return False
 
         tmpChain = copy.deepcopy(self)
@@ -72,11 +79,13 @@ class BlockChain:
         height = parent_node.height + 1
         if (height <= self.maxheightnode.height - MAX_BRANCH_LEN_DIFF):
             print("Block not valid because of invalid forking")
+            write_log("Block not valid because of invalid forking")
             return False
         if height > self.maxheightnode.height:
             self.maxheightnode = block
         self.blockchain[block.hash] = block
         print("new block with hash = {block.hash()} gets added in the block-chain")
+        write_log("new block with hash = {block.hash()} gets added in the block-chain")
         return True
 
     def is_valid_proof(self, block, block_hash):
@@ -111,10 +120,12 @@ class BlockChain:
             # print("*******",prev_block_hash)
             if current_block.previousHash != prev_block_hash:
                 print("The hash of the current block is not the same as the hash of the previous block")
+                write_log("The hash of the current block is not the same as the hash of the previous block")
                 return False
             recomputed_current_hash = current_block.generate_hash()
             if not self.is_valid_proof(current_block, recomputed_current_hash):
                 print("The hash of the current block does not meet the proof of work")
+                write_log("The hash of the current block does not meet the proof of work")
                 return False
             prev_block_hash = recomputed_current_hash
         return True
