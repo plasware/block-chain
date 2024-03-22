@@ -1,86 +1,87 @@
-[LOG]1711003822.1166434: Transaction Broadcast
-[LOG]1711003827.1877112: Transaction Broadcast
-[LOG]1711003832.2431233: Transaction Broadcast
-[LOG]1711003837.3057208: Transaction Broadcast
-[LOG]1711003842.3649654: Transaction Broadcast
-[LOG]1711003847.4081118: Transaction Broadcast
-[LOG]1711003852.444302: Transaction Broadcast
-[LOG]1711003857.4813883: Transaction Broadcast
-[LOG]1711003859.4739134: Transaction received
-[LOG]1711003859.5489633: Found valid hash: 00007952604fba0770c62e9d60ec1b8530f5d69eabba9fe409eefbd1f5a514b8, with nonce: 14261
-[LOG]1711003859.549406: broadcasted new block
-[LOG]1711003862.5173402: Transaction Broadcast
-[LOG]1711003864.4934225: Transaction received
-[LOG]1711003867.5898492: Transaction Broadcast
-[LOG]1711003869.5024607: Transaction received
-[LOG]1711003872.6302972: Transaction Broadcast
-[LOG]1711003874.5204835: Transaction received
-[LOG]1711003877.6821074: Transaction Broadcast
-[LOG]1711003879.5409725: Invalid transaction value
-[LOG]1711003882.7532086: Transaction Broadcast
-[LOG]1711003884.5537627: Invalid transaction value
-[LOG]1711003887.8205693: Transaction Broadcast
-[LOG]1711003889.5661645: Invalid transaction value
-[LOG]1711003892.8524718: Transaction Broadcast
-[LOG]1711004093.7333496: Transaction Broadcast
-[LOG]1711004098.7700374: Transaction Broadcast
-[LOG]1711004098.8730783: Transaction received
-[LOG]1711004099.1928515: Found valid hash: 0000f6a685db2c17e046ee78bebcc6218c07a23f1d332b78e95ab4d55d4878c3, with nonce: 51378
-[LOG]1711004099.1932924: broadcasted new block
-[LOG]1711004103.8519676: Transaction Broadcast
-[LOG]1711004103.8945036: Transaction received
-[LOG]1711004108.8904746: Transaction Broadcast
-[LOG]1711004108.905287: Transaction received
-[LOG]1711004113.928351: Transaction received
-[LOG]1711004113.933103: Transaction Broadcast
-[LOG]1711004118.9413712: Invalid transaction value
-[LOG]1711004118.9706068: Transaction Broadcast
-[LOG]1711004123.9682832: Invalid transaction value
-[LOG]1711004124.0067854: Transaction Broadcast
-[LOG]1711004129.044598: Transaction Broadcast
-[LOG]1711004932.0981143: Transaction Broadcast
-[LOG]1711004937.1791172: Transaction Broadcast
-[LOG]1711004937.27574: Transaction received
-[LOG]1711004938.0021386: Found valid hash: 0000a0b12e7694553ca30a0f62effbad5cd5593d25b9d30d412508eb2b174aa4, with nonce: 121999
-[LOG]1711004938.0026147: broadcasted new block
-[LOG]1711004938.002689: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:35.41,sig:ADnSbz+XdmU6g4rx/5zw5HU2KgxIVobgYLpiczMumD7XyHxp8tQI5x61Emj19Ob08wCo+jnPCjQDeQ4db9+BeA8nQRaybEHppc3r2OrwtmQWg0gJ8TBwNyeBL6z6jR0o7M5ZOClNWOnhvvSovMFgnVlxP2gOFoXD+pkCqJx/NQnb'], 'previousHash': '0000824bdb1d3195a3e07f87fb2afaa2975325f0a5fbeb6e5da24057501452e5', 'timestamp': 1711004937.2550771, 'nonce': 121999, 'hash': '0000a0b12e7694553ca30a0f62effbad5cd5593d25b9d30d412508eb2b174aa4', 'height': 65, 'parent': <Block.Block object at 0x7f108d87c240>, 'children': []}
-[LOG]1711004942.216091: Transaction Broadcast
-[LOG]1711004942.2906394: Transaction received
-[LOG]1711004947.2998784: Invalid transaction value
-[LOG]1711004947.3206506: Transaction Broadcast
-[LOG]1711004952.3067145: Transaction received
-[LOG]1711004952.3564134: Transaction Broadcast
-[LOG]1711004957.3176558: Invalid transaction value
-[LOG]1711004957.39358: Transaction Broadcast
-[LOG]1711004962.3399508: Transaction received
-[LOG]1711004962.513122: Transaction Broadcast
-[LOG]1711004967.3530943: Invalid transaction value
-[LOG]1711004967.5493908: Transaction Broadcast
-[LOG]1711004972.3658168: Invalid transaction value
-[LOG]1711004972.5877864: Transaction Broadcast
-[LOG]1711004977.383447: Transaction received
-[LOG]1711004977.6745057: Transaction Broadcast
-[LOG]1711004982.3974245: Transaction received
-[LOG]1711004982.7651794: Transaction Broadcast
-[LOG]1711004987.4122646: Invalid transaction value
-[LOG]1711004987.8015575: Transaction Broadcast
-[LOG]1711004992.4408674: Invalid transaction value
-[LOG]1711004992.8373754: Transaction Broadcast
-[LOG]1711004997.8737137: Transaction Broadcast
-[LOG]1711005123.0723886: Transaction Broadcast
-[LOG]1711005128.1143537: Transaction Broadcast
-[LOG]1711005128.2201285: Transaction received
-[LOG]1711005128.414928: Found valid hash: 000051e6a5690ecf660573c5a21a2572859234ca9d71eb1ddd1ef084d647b60f, with nonce: 29096
-[LOG]1711005128.4153602: broadcasted new block
-[LOG]1711005128.415472: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:36.59,sig:ATopG2WJaTum6/Yqbig/8un3rtulwACC0a4eSfYNpy032sSOyLB3SZ0HfPqMeQ2B9IaQJVNU2rwU9WnKmn7yBILsdwJFgXoQ98mA9ooPzIl5U8y1mxidoFMNOy7rXf82Ufxgcvzo9qYnakjS/FPKIKlS9VnOE1neNxj7qrsDZQZ9'], 'previousHash': '0000824bdb1d3195a3e07f87fb2afaa2975325f0a5fbeb6e5da24057501452e5', 'timestamp': 1711005128.1892836, 'nonce': 29096, 'hash': '000051e6a5690ecf660573c5a21a2572859234ca9d71eb1ddd1ef084d647b60f', 'height': 65, 'parent': <Block.Block object at 0x7f94e5106240>, 'children': []}
-[LOG]1711005133.175597: Transaction Broadcast
-[LOG]1711005133.2416852: Transaction received
-[LOG]1711005138.2516668: Transaction received
-[LOG]1711005138.2664542: Transaction Broadcast
-[LOG]1711005143.2650201: Invalid transaction value
-[LOG]1711005143.3078864: Transaction Broadcast
-[LOG]1711005148.2739334: Invalid transaction value
-[LOG]1711005148.3840067: Transaction Broadcast
-[LOG]1711005153.2860456: Invalid transaction value
-[LOG]1711005153.4205585: Transaction Broadcast
-[LOG]1711005158.4611795: Transaction Broadcast
+[LOG]1711117350.0542648: Transaction received
+[LOG]1711117350.1845725: Found valid hash: 000091219806384c4b19a16d2759cead80d701b89c86c4fe7e90f99d98fec46b, with nonce: 20278
+[LOG]1711117350.1937523: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:37.12,sig:AC3QxwYDlKpq40FzAo45bCIVZLNBVDmW/RGcXGFBuikAeSpPOjOxyR/5JREMJdeN7JvjPsuP4tRZ3auA7CMpOwbMJeaXSjxrIWnPbt9v7ry51gmlItCuhfo30YhWCfS0KA8AXQXrrXsTcALYYEBVspNRIQkcfrbIWxIkO04nxyc6'], 'previousHash': '0000853b7b94093c1b80024ddec562551f10d0042122d098587187c1e0439bb1', 'timestamp': 1711117349.9787278, 'nonce': 20278, 'hash': '000091219806384c4b19a16d2759cead80d701b89c86c4fe7e90f99d98fec46b', 'height': 85, 'parent': <Block.Block object at 0x00000236754159C0>, 'children': []}
+[LOG]1711117350.1972282: {'transactions': [{'time_stamp': 1711117346.3579435, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 37.12, 'signature': 'AC3QxwYDlKpq40FzAo45bCIVZLNBVDmW/RGcXGFBuikAeSpPOjOxyR/5JREMJdeN7JvjPsuP4tRZ3auA7CMpOwbMJeaXSjxrIWnPbt9v7ry51gmlItCuhfo30YhWCfS0KA8AXQXrrXsTcALYYEBVspNRIQkcfrbIWxIkO04nxyc6'}], 'previousHash': '0000853b7b94093c1b80024ddec562551f10d0042122d098587187c1e0439bb1', 'timestamp': 1711117349.9787278, 'nonce': 20278, 'height': 85}
+[LOG]1711117350.1972282: broadcasted new block
+[LOG]1711117350.2162116: fromIp:192.168.42.1,toIp:192.168.42.2,value:37.12,sig:AC3QxwYDlKpq40FzAo45bCIVZLNBVDmW/RGcXGFBuikAeSpPOjOxyR/5JREMJdeN7JvjPsuP4tRZ3auA7CMpOwbMJeaXSjxrIWnPbt9v7ry51gmlItCuhfo30YhWCfS0KA8AXQXrrXsTcALYYEBVspNRIQkcfrbIWxIkO04nxyc6
+[LOG]1711117350.243093: new block with hash = {block.hash()} gets added in the block-chain
+[LOG]1711117355.1956923: Transaction received
+[LOG]1711117355.877316: Found valid hash: 000047a7a006bf8a628e9df3513ea44a3738e85566cb503cc8e90f51c9616498, with nonce: 74867
+[LOG]1711117355.8917031: broadcasted new block
+[LOG]1711117360.3913093: Transaction received
+[LOG]1711117360.4156458: Found valid hash: 000044d02d6b1ef11913e7aed3113c288f077459592a4ae9f0683ef15f6a0b28, with nonce: 48856
+[LOG]1711117360.4225917: broadcasted new block
+[LOG]1711117365.51075: Transaction received
+[LOG]1711117365.5848873: Found valid hash: 00007362d8115e28542b165e9f55beb808486f18dc80566c435d969319e7330c, with nonce: 63307
+[LOG]1711117365.594821: broadcasted new block
+[LOG]1711117712.1585264: Transaction received
+[LOG]1711117712.2966774: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:1.08,sig:ASX/Oh+psQLg6CqQYzLzo55YQOQn2hpbr3QOM97AqOHnjk8CexYX5fZ7zNyE3HMO0eHWIUGO7D5aH7IJyYKVYiUgGkUkZzcgJH5ArV2AgLTvl4fl0RqRwwgujMQb0AMOvC1AgzjhjegBP0r4jY2+CZzcYi6ZrnBtY97L3QzAQi64'], 'previousHash': '0000541f1e4b283d3fe39e68b937bbde8cb16356b9b6f71b6bfd823782020a6b', 'timestamp': 1711117708.834067, 'nonce': 22077, 'hash': '000063944dc6bacdf3cf184157b4d22ad52fcff793f7bdcad758f887c6ff2a8c', 'height': 85, 'parent': <Block.Block object at 0x000002A91C905990>, 'children': []}
+[LOG]1711117712.3588877: {'transactions': [{'time_stamp': 1711117708.7500422, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 1.08, 'signature': 'ASX/Oh+psQLg6CqQYzLzo55YQOQn2hpbr3QOM97AqOHnjk8CexYX5fZ7zNyE3HMO0eHWIUGO7D5aH7IJyYKVYiUgGkUkZzcgJH5ArV2AgLTvl4fl0RqRwwgujMQb0AMOvC1AgzjhjegBP0r4jY2+CZzcYi6ZrnBtY97L3QzAQi64'}], 'previousHash': '0000541f1e4b283d3fe39e68b937bbde8cb16356b9b6f71b6bfd823782020a6b', 'timestamp': 1711117708.834067, 'nonce': 22077, 'height': 142}
+[LOG]1711117712.389934: Block not valid because previous block hash is not in the blockchain
+[LOG]1711117712.6436858: Found valid hash: 0000be26c18c6ad170881d50a610f5c542af2c44ade55962ff5daeb4b9803db7, with nonce: 74646
+[LOG]1711117712.6542845: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:1.08,sig:ASX/Oh+psQLg6CqQYzLzo55YQOQn2hpbr3QOM97AqOHnjk8CexYX5fZ7zNyE3HMO0eHWIUGO7D5aH7IJyYKVYiUgGkUkZzcgJH5ArV2AgLTvl4fl0RqRwwgujMQb0AMOvC1AgzjhjegBP0r4jY2+CZzcYi6ZrnBtY97L3QzAQi64'], 'previousHash': '0000853b7b94093c1b80024ddec562551f10d0042122d098587187c1e0439bb1', 'timestamp': 1711117712.068084, 'nonce': 74646, 'hash': '0000be26c18c6ad170881d50a610f5c542af2c44ade55962ff5daeb4b9803db7', 'height': 85, 'parent': <Block.Block object at 0x000002A91C905990>, 'children': []}
+[LOG]1711117712.6616127: {'transactions': [{'time_stamp': 1711117708.7500422, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 1.08, 'signature': 'ASX/Oh+psQLg6CqQYzLzo55YQOQn2hpbr3QOM97AqOHnjk8CexYX5fZ7zNyE3HMO0eHWIUGO7D5aH7IJyYKVYiUgGkUkZzcgJH5ArV2AgLTvl4fl0RqRwwgujMQb0AMOvC1AgzjhjegBP0r4jY2+CZzcYi6ZrnBtY97L3QzAQi64'}], 'previousHash': '0000853b7b94093c1b80024ddec562551f10d0042122d098587187c1e0439bb1', 'timestamp': 1711117712.068084, 'nonce': 74646, 'height': 85}
+[LOG]1711117712.6616127: broadcasted new block
+[LOG]1711117712.6677604: fromIp:192.168.42.1,toIp:192.168.42.2,value:1.08,sig:ASX/Oh+psQLg6CqQYzLzo55YQOQn2hpbr3QOM97AqOHnjk8CexYX5fZ7zNyE3HMO0eHWIUGO7D5aH7IJyYKVYiUgGkUkZzcgJH5ArV2AgLTvl4fl0RqRwwgujMQb0AMOvC1AgzjhjegBP0r4jY2+CZzcYi6ZrnBtY97L3QzAQi64
+[LOG]1711117712.7284238: new block with hash = {block.hash()} gets added in the block-chain
+[LOG]1711117717.2143984: Found valid hash: 0000ca91210f751345698803cb1e665cf939f45e41e9abd64c9c3dd0705a4dac, with nonce: 302
+[LOG]1711117717.2143984: Transaction received
+[LOG]1711117717.2292972: broadcasted new block
+[LOG]1711117722.3319252: Transaction received
+[LOG]1711117722.3850946: Found valid hash: 0000ec2252cab692accc380f8ef7efe51b587f3cba0f57ff1ea31fa51c14d362, with nonce: 45270
+[LOG]1711117722.3920572: broadcasted new block
+[LOG]1711117844.7349677: Transaction received
+[LOG]1711117844.8585403: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:25.73,sig:AQBmY9G6j0/fV+5s8KWMNqhtsuJAa0Xfc6UJYj8QOS89vfebRkZ/SSxc5QJ4iTvwDwOGnhlNKS8AChYsFpGRcF5XXlBopMikLRSLvTNteWD4PwAddrurbqXcstVaz5avQELOeWjZrZOHYqgXNW7eZGGQQqFLtClnP4gZp2W4XLwZ'], 'previousHash': '0000fb87ef436532f243fbbbbcae2e01a52c7f79f2f4589deab7111b9047359a', 'timestamp': 1711117841.4537463, 'nonce': 13114, 'hash': '000001e0f64fbf04dcb23c645629f1112e239111528808c186dbeb60088651eb', 'height': 85, 'parent': <Block.Block object at 0x000001D381BF5990>, 'children': []}
+[LOG]1711117844.9506927: {'transactions': [{'time_stamp': 1711117841.2239268, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 25.73, 'signature': 'AQBmY9G6j0/fV+5s8KWMNqhtsuJAa0Xfc6UJYj8QOS89vfebRkZ/SSxc5QJ4iTvwDwOGnhlNKS8AChYsFpGRcF5XXlBopMikLRSLvTNteWD4PwAddrurbqXcstVaz5avQELOeWjZrZOHYqgXNW7eZGGQQqFLtClnP4gZp2W4XLwZ'}], 'previousHash': '0000fb87ef436532f243fbbbbcae2e01a52c7f79f2f4589deab7111b9047359a', 'timestamp': 1711117841.4537463, 'nonce': 13114, 'height': 145}
+[LOG]1711117845.0431798: Block not valid because previous block hash is not in the blockchain
+[LOG]1711117845.2244997: Found valid hash: 00000ed874fe2c86bd9cc7740c058d62f848629c230952dba9602d4e3cb1dc53, with nonce: 67888
+[LOG]1711117845.2327647: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:25.73,sig:AQBmY9G6j0/fV+5s8KWMNqhtsuJAa0Xfc6UJYj8QOS89vfebRkZ/SSxc5QJ4iTvwDwOGnhlNKS8AChYsFpGRcF5XXlBopMikLRSLvTNteWD4PwAddrurbqXcstVaz5avQELOeWjZrZOHYqgXNW7eZGGQQqFLtClnP4gZp2W4XLwZ'], 'previousHash': '0000853b7b94093c1b80024ddec562551f10d0042122d098587187c1e0439bb1', 'timestamp': 1711117844.661616, 'nonce': 67888, 'hash': '00000ed874fe2c86bd9cc7740c058d62f848629c230952dba9602d4e3cb1dc53', 'height': 85, 'parent': <Block.Block object at 0x000001D381BF5990>, 'children': []}
+[LOG]1711117845.2392945: {'transactions': [{'time_stamp': 1711117841.2239268, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 25.73, 'signature': 'AQBmY9G6j0/fV+5s8KWMNqhtsuJAa0Xfc6UJYj8QOS89vfebRkZ/SSxc5QJ4iTvwDwOGnhlNKS8AChYsFpGRcF5XXlBopMikLRSLvTNteWD4PwAddrurbqXcstVaz5avQELOeWjZrZOHYqgXNW7eZGGQQqFLtClnP4gZp2W4XLwZ'}], 'previousHash': '0000853b7b94093c1b80024ddec562551f10d0042122d098587187c1e0439bb1', 'timestamp': 1711117844.661616, 'nonce': 67888, 'height': 85}
+[LOG]1711117845.2472355: broadcasted new block
+[LOG]1711117845.2472355: fromIp:192.168.42.1,toIp:192.168.42.2,value:25.73,sig:AQBmY9G6j0/fV+5s8KWMNqhtsuJAa0Xfc6UJYj8QOS89vfebRkZ/SSxc5QJ4iTvwDwOGnhlNKS8AChYsFpGRcF5XXlBopMikLRSLvTNteWD4PwAddrurbqXcstVaz5avQELOeWjZrZOHYqgXNW7eZGGQQqFLtClnP4gZp2W4XLwZ
+[LOG]1711117845.2780497: new block with hash = {block.hash()} gets added in the block-chain
+[LOG]1711117845.3027875: Block received
+[LOG]1711117849.8549275: Transaction received
+[LOG]1711117850.083991: Found valid hash: 0000268bfcd6c850259b6c288d3e861f48c6c16637e64b9f25df127223ff15c9, with nonce: 23994
+[LOG]1711117850.096905: broadcasted new block
+[LOG]1711117850.096905: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:28.67,sig:AHCnlhRmarFRrDIDp0l57xM2HDAoeHrnyZk4ifBFHPli+TVzVRtI4YqisP+Y8trhDPDbkPapkUXnQ99Uc/a5xvexInjlIeyw8aTOq4A/J2Deigsi6eQhUZ6MsDBG2sMj//M4fN2hHzPalYcOmMhsDACsRJlFl1V6UVpOXkG6/QDs'], 'previousHash': '00000ed874fe2c86bd9cc7740c058d62f848629c230952dba9602d4e3cb1dc53', 'timestamp': 1711117849.815691, 'nonce': 23994, 'hash': '0000268bfcd6c850259b6c288d3e861f48c6c16637e64b9f25df127223ff15c9', 'height': 86, 'parent': <Block.Block object at 0x000001D381BF7F40>, 'children': []}
+[LOG]1711117850.1048517: {'transactions': [{'time_stamp': 1711117846.4205446, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 28.67, 'signature': 'AHCnlhRmarFRrDIDp0l57xM2HDAoeHrnyZk4ifBFHPli+TVzVRtI4YqisP+Y8trhDPDbkPapkUXnQ99Uc/a5xvexInjlIeyw8aTOq4A/J2Deigsi6eQhUZ6MsDBG2sMj//M4fN2hHzPalYcOmMhsDACsRJlFl1V6UVpOXkG6/QDs'}], 'previousHash': '00000ed874fe2c86bd9cc7740c058d62f848629c230952dba9602d4e3cb1dc53', 'timestamp': 1711117849.815691, 'nonce': 23994, 'height': 86}
+[LOG]1711117850.1162746: fromIp:192.168.42.1,toIp:192.168.42.2,value:28.67,sig:AHCnlhRmarFRrDIDp0l57xM2HDAoeHrnyZk4ifBFHPli+TVzVRtI4YqisP+Y8trhDPDbkPapkUXnQ99Uc/a5xvexInjlIeyw8aTOq4A/J2Deigsi6eQhUZ6MsDBG2sMj//M4fN2hHzPalYcOmMhsDACsRJlFl1V6UVpOXkG6/QDs
+[LOG]1711117850.1435843: new block with hash = {block.hash()} gets added in the block-chain
+[LOG]1711117850.1654458: Block received
+[LOG]1711117850.8511255: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:28.67,sig:AHCnlhRmarFRrDIDp0l57xM2HDAoeHrnyZk4ifBFHPli+TVzVRtI4YqisP+Y8trhDPDbkPapkUXnQ99Uc/a5xvexInjlIeyw8aTOq4A/J2Deigsi6eQhUZ6MsDBG2sMj//M4fN2hHzPalYcOmMhsDACsRJlFl1V6UVpOXkG6/QDs'], 'previousHash': '000001e0f64fbf04dcb23c645629f1112e239111528808c186dbeb60088651eb', 'timestamp': 1711117846.4948876, 'nonce': 94854, 'hash': '000016701de513ae186a1f9f17d1358fe8a2731bc5ddb2441949c00c41792a42', 'height': 87, 'parent': <Block.Block object at 0x000001D381BF7DF0>, 'children': []}
+[LOG]1711117850.8583217: {'transactions': [{'time_stamp': 1711117846.4205446, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 28.67, 'signature': 'AHCnlhRmarFRrDIDp0l57xM2HDAoeHrnyZk4ifBFHPli+TVzVRtI4YqisP+Y8trhDPDbkPapkUXnQ99Uc/a5xvexInjlIeyw8aTOq4A/J2Deigsi6eQhUZ6MsDBG2sMj//M4fN2hHzPalYcOmMhsDACsRJlFl1V6UVpOXkG6/QDs'}], 'previousHash': '000001e0f64fbf04dcb23c645629f1112e239111528808c186dbeb60088651eb', 'timestamp': 1711117846.4948876, 'nonce': 94854, 'height': 146}
+[LOG]1711117850.8672445: Block not valid because previous block hash is not in the blockchain
+[LOG]1711117855.0071073: Transaction received
+[LOG]1711117855.0359292: Found valid hash: 0000d68ac224b2d47dd27b9724ce2ab6274b20a77ae89c2a469751b2b2fabcff, with nonce: 37819
+[LOG]1711117855.0438716: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:10.06,sig:AJ27vZGRYO+4RzGGvo5iTr4Jrlc6Xfca8U2DUA9i0CDGSpnlSIdeI6h4kYIE0Bm4pSDYLHwg8WJvI9qVQa1mz0ZaN54CaiXdHjF60WjEiVuSdKBEnlyKxLO6LLpw8TCPVzJVWa2Xr7JEbCvLAS1QQfYI6dSBLMhco9rCKcSlGXUE'], 'previousHash': '0000268bfcd6c850259b6c288d3e861f48c6c16637e64b9f25df127223ff15c9', 'timestamp': 1711117854.946993, 'nonce': 37819, 'hash': '0000d68ac224b2d47dd27b9724ce2ab6274b20a77ae89c2a469751b2b2fabcff', 'height': 87, 'parent': <Block.Block object at 0x000001D381BF7DF0>, 'children': []}
+[LOG]1711117855.0438716: broadcasted new block
+[LOG]1711117855.0483458: {'transactions': [{'time_stamp': 1711117851.490336, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 10.06, 'signature': 'AJ27vZGRYO+4RzGGvo5iTr4Jrlc6Xfca8U2DUA9i0CDGSpnlSIdeI6h4kYIE0Bm4pSDYLHwg8WJvI9qVQa1mz0ZaN54CaiXdHjF60WjEiVuSdKBEnlyKxLO6LLpw8TCPVzJVWa2Xr7JEbCvLAS1QQfYI6dSBLMhco9rCKcSlGXUE'}], 'previousHash': '0000268bfcd6c850259b6c288d3e861f48c6c16637e64b9f25df127223ff15c9', 'timestamp': 1711117854.946993, 'nonce': 37819, 'height': 87}
+[LOG]1711117855.0533328: fromIp:192.168.42.1,toIp:192.168.42.2,value:10.06,sig:AJ27vZGRYO+4RzGGvo5iTr4Jrlc6Xfca8U2DUA9i0CDGSpnlSIdeI6h4kYIE0Bm4pSDYLHwg8WJvI9qVQa1mz0ZaN54CaiXdHjF60WjEiVuSdKBEnlyKxLO6LLpw8TCPVzJVWa2Xr7JEbCvLAS1QQfYI6dSBLMhco9rCKcSlGXUE
+[LOG]1711117855.0627787: new block with hash = {block.hash()} gets added in the block-chain
+[LOG]1711117855.074192: Block received
+[LOG]1711117855.0801623: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:10.06,sig:AJ27vZGRYO+4RzGGvo5iTr4Jrlc6Xfca8U2DUA9i0CDGSpnlSIdeI6h4kYIE0Bm4pSDYLHwg8WJvI9qVQa1mz0ZaN54CaiXdHjF60WjEiVuSdKBEnlyKxLO6LLpw8TCPVzJVWa2Xr7JEbCvLAS1QQfYI6dSBLMhco9rCKcSlGXUE'], 'previousHash': '000016701de513ae186a1f9f17d1358fe8a2731bc5ddb2441949c00c41792a42', 'timestamp': 1711117851.5832312, 'nonce': 21781, 'hash': '0000f83f948e508e2b91126b18c33ceceac2e0aa1ca33b0202a55d6295110dc6', 'height': 88, 'parent': <Block.Block object at 0x000001D381C8E620>, 'children': []}
+[LOG]1711117855.0871065: {'transactions': [{'time_stamp': 1711117851.490336, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 10.06, 'signature': 'AJ27vZGRYO+4RzGGvo5iTr4Jrlc6Xfca8U2DUA9i0CDGSpnlSIdeI6h4kYIE0Bm4pSDYLHwg8WJvI9qVQa1mz0ZaN54CaiXdHjF60WjEiVuSdKBEnlyKxLO6LLpw8TCPVzJVWa2Xr7JEbCvLAS1QQfYI6dSBLMhco9rCKcSlGXUE'}], 'previousHash': '000016701de513ae186a1f9f17d1358fe8a2731bc5ddb2441949c00c41792a42', 'timestamp': 1711117851.5832312, 'nonce': 21781, 'height': 147}
+[LOG]1711117855.0935712: Block not valid because previous block hash is not in the blockchain
+[LOG]1711117860.0807226: Transaction received
+[LOG]1711117860.0911536: Found valid hash: 00008c1c7e84619a95929a65fb2c4780e26d91e5b3775313552a445808635070, with nonce: 8418
+[LOG]1711117860.0971138: broadcasted new block
+Ip:192.168.42.1,toIp:192.168.42.2,value:34.73,sig:AGRRAaF2X7t7HKAHofv41dQUL9LEStvuP8wxNdiGUSTxK2G2IHtR9VtteatDUmn64Mmpr9BBrOnvDaejhlkIbMiBXBAOU6l81GSwRtlNbjGGDh1cAmHvvRV8SfHLrarr7URL3Pmiep8h3xkaq7soA42/iYbnMCyj4kcM3tHtQlcx'], 'previousHash': '0000d68ac224b2d47dd27b9724ce2ab6274b20a77ae89c2a469751b2b2fabcff', 'timestamp': 1711117860.0583813, 'nonce': 8418, 'hash': '00008c1c7e84619a95929a65fb2c4780e26d91e5b3775313552a445808635070', 'height': 88, 'parent': <Block.Block object at 0x000001D381C8E620>, 'children': []}
+[LOG]1711117860.1030743: {'transactions': [{'time_stamp': 1711117856.5296483, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 34.73, 'signature': 'AGRRAaF2X7t7HKAHofv41dQUL9LEStvuP8wxNdiGUSTxK2G2IHtR9VtteatDUmn64Mmpr9BBrOnvDaejhlkIbMiBXBAOU6l81GSwRtlNbjGGDh1cAmHvvRV8SfHLrarr7URL3Pmiep8h3xkaq7soA42/iYbnMCyj4kcM3tHtQlcx'}], 'previousHash': '0000d68ac224b2d47dd27b9724ce2ab6274b20a77ae89c2a469751b2b2fabcff', 'timestamp': 1711117860.0583813, 'nonce': 8418, 'height': 88}
+[LOG]1711117860.1080518: fromIp:192.168.42.1,toIp:192.168.42.2,value:34.73,sig:AGRRAaF2X7t7HKAHofv41dQUL9LEStvuP8wxNdiGUSTxK2G2IHtR9VtteatDUmn64Mmpr9BBrOnvDaejhlkIbMiBXBAOU6l81GSwRtlNbjGGDh1cAmHvvRV8SfHLrarr7URL3Pmiep8h3xkaq7soA42/iYbnMCyj4kcM3tHtQlcx
+[LOG]1711117860.1199603: new block with hash = {block.hash()} gets added in the block-chain
+[LOG]1711117860.1313915: Block received
+[LOG]1711117860.1820529: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:34.73,sig:AGRRAaF2X7t7HKAHofv41dQUL9LEStvuP8wxNdiGUSTxK2G2IHtR9VtteatDUmn64Mmpr9BBrOnvDaejhlkIbMiBXBAOU6l81GSwRtlNbjGGDh1cAmHvvRV8SfHLrarr7URL3Pmiep8h3xkaq7soA42/iYbnMCyj4kcM3tHtQlcx'], 'previousHash': '0000f83f948e508e2b91126b18c33ceceac2e0aa1ca33b0202a55d6295110dc6', 'timestamp': 1711117856.6373308, 'nonce': 27499, 'hash': '0000678f68eac182b293504081d9e21be2da5645a9320e27df6908c574452455', 'height': 89, 'parent': <Block.Block object at 0x000001D381C8CD90>, 'children': []}
+[LOG]1711117860.186514: {'transactions': [{'time_stamp': 1711117856.5296483, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 34.73, 'signature': 'AGRRAaF2X7t7HKAHofv41dQUL9LEStvuP8wxNdiGUSTxK2G2IHtR9VtteatDUmn64Mmpr9BBrOnvDaejhlkIbMiBXBAOU6l81GSwRtlNbjGGDh1cAmHvvRV8SfHLrarr7URL3Pmiep8h3xkaq7soA42/iYbnMCyj4kcM3tHtQlcx'}], 'previousHash': '0000f83f948e508e2b91126b18c33ceceac2e0aa1ca33b0202a55d6295110dc6', 'timestamp': 1711117856.6373308, 'nonce': 27499, 'height': 148}
+[LOG]1711117860.1929708: Block not valid because previous block hash is not in the blockchain
+[LOG]1711117865.1228151: Transaction received
+[LOG]1711117865.1228151: Found valid hash: 0000915c4ddf792cf2be3469258e8afc112ebbbe7f35c38b04bd6a4516d56b95, with nonce: 5589
+[LOG]1711117865.1309428: broadcasted new block
+[LOG]1711117865.1309428: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:37.29,sig:AC2cebmzKkDY4WVsNyHumtY0mD9OOHfLh7T3239jF6pC0wOHYjhMFy4t5ou8+V+eKMaLEmJataXo0EiZEYRo1yCOOC11sg2JoWoUR2dQmp3sHfvZmlqsGQePenVNJtJziffGbqKCEZcRLbuWjIvrAfSIOeej2NeC8yCjPyvtlgB8'], 'previousHash': '00008c1c7e84619a95929a65fb2c4780e26d91e5b3775313552a445808635070', 'timestamp': 1711117865.0983703, 'nonce': 5589, 'hash': '0000915c4ddf792cf2be3469258e8afc112ebbbe7f35c38b04bd6a4516d56b95', 'height': 89, 'parent': <Block.Block object at 0x000001D381C8CD90>, 'children': []}
+[LOG]1711117865.137901: {'transactions': [{'time_stamp': 1711117861.5676148, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 37.29, 'signature': 'AC2cebmzKkDY4WVsNyHumtY0mD9OOHfLh7T3239jF6pC0wOHYjhMFy4t5ou8+V+eKMaLEmJataXo0EiZEYRo1yCOOC11sg2JoWoUR2dQmp3sHfvZmlqsGQePenVNJtJziffGbqKCEZcRLbuWjIvrAfSIOeej2NeC8yCjPyvtlgB8'}], 'previousHash': '00008c1c7e84619a95929a65fb2c4780e26d91e5b3775313552a445808635070', 'timestamp': 1711117865.0983703, 'nonce': 5589, 'height': 89}
+[LOG]1711117865.143824: fromIp:192.168.42.1,toIp:192.168.42.2,value:37.29,sig:AC2cebmzKkDY4WVsNyHumtY0mD9OOHfLh7T3239jF6pC0wOHYjhMFy4t5ou8+V+eKMaLEmJataXo0EiZEYRo1yCOOC11sg2JoWoUR2dQmp3sHfvZmlqsGQePenVNJtJziffGbqKCEZcRLbuWjIvrAfSIOeej2NeC8yCjPyvtlgB8
+[LOG]1711117865.1562002: new block with hash = {block.hash()} gets added in the block-chain
+[LOG]1711117865.169613: Block received
+[LOG]1711117866.2957385: {'transactions': ['fromIp:192.168.42.1,toIp:192.168.42.2,value:37.29,sig:AC2cebmzKkDY4WVsNyHumtY0mD9OOHfLh7T3239jF6pC0wOHYjhMFy4t5ou8+V+eKMaLEmJataXo0EiZEYRo1yCOOC11sg2JoWoUR2dQmp3sHfvZmlqsGQePenVNJtJziffGbqKCEZcRLbuWjIvrAfSIOeej2NeC8yCjPyvtlgB8'], 'previousHash': '0000678f68eac182b293504081d9e21be2da5645a9320e27df6908c574452455', 'timestamp': 1711117861.6783233, 'nonce': 142350, 'hash': '0000085d7ed0d0d3faf2889190dc0a45160f06407779ced68a7ecc00c51502f3', 'height': 90, 'parent': <Block.Block object at 0x000001D381E4FA60>, 'children': []}
+[LOG]1711117866.3017523: {'transactions': [{'time_stamp': 1711117861.5676148, 'from_ip': '192.168.42.1', 'to_ip': '192.168.42.2', 'value': 37.29, 'signature': 'AC2cebmzKkDY4WVsNyHumtY0mD9OOHfLh7T3239jF6pC0wOHYjhMFy4t5ou8+V+eKMaLEmJataXo0EiZEYRo1yCOOC11sg2JoWoUR2dQmp3sHfvZmlqsGQePenVNJtJziffGbqKCEZcRLbuWjIvrAfSIOeej2NeC8yCjPyvtlgB8'}], 'previousHash': '0000678f68eac182b293504081d9e21be2da5645a9320e27df6908c574452455', 'timestamp': 1711117861.6783233, 'nonce': 142350, 'height': 149}
+[LOG]1711117866.306712: Block not valid because previous block hash is not in the blockchain

@@ -95,6 +95,7 @@ def receive_transaction_thread():
                     new_block = Block(transactions=transaction_db.read(),
                                       previousHash=blockchain.getMaxHeightBlock().hash,
                                       parent=blockchain.getMaxHeightBlock())
+                    transaction_db.write([])
                     # Start mining
                     mining_thread_instance = threading.Thread(target=mining_thread,
                                                               args=(new_block, blockchain.getMaxHeightBlock().hash))
@@ -138,6 +139,7 @@ def receive_block_thread():
             TransactionDB().write([])
             accountInfo = accountBookDB.read()
             accountInfo[addr[0]] += REWARD
+            accountBookDB.write(accountInfo)
             print("Block received")
             write_log("Block received")
             blockchainDB.write(blockchain)
